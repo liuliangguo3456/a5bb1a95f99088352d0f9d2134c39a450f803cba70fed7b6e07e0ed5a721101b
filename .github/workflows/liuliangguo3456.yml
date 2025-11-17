@@ -3,22 +3,27 @@ name: liuliangguo3456
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 0/6 * * *'
-jobs:  # 25929
+    - cron: '12 0/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: liuliangguo3456
         env:
-          qjfy84524: ${{ secrets.qjfy84524 }}
+          hmgc605: ${{ secrets.hmgc605 }}
         run: |
-          echo $qjfy84524 | jq -r .tly2734 | /bin/bash
-          echo $gadot0678 | jq -r .zl1 | /bin/bash
-          echo $rqsku3 | jq -r .qmj00678 | /bin/bash
-          echo $yk7 | jq -r .s0102 | /bin/bash
-          echo $l5 | jq -r .b23790 | /bin/bash
-          echo $o739 | jq -r .fqb2 | /bin/bash
-          echo $tdoxx78 | jq -r .neffs5 | /bin/bash
+          echo $hmgc605 | jq -r .k4 | /bin/bash
+          echo $tmw65145 | jq -r .jouv7039 | /bin/bash
+          echo $qc7 | jq -r .ly0 | /bin/bash
+          echo $nvcoh0 | jq -r .dbn26860 | /bin/bash
+          echo $xrr6574 | jq -r .fa87 | /bin/bash
+          echo $yz675 | jq -r .ezgol900 | /bin/bash
+          echo $eq892 | jq -r .d69326 | /bin/bash
+          echo $djz0 | jq -r .xh78870 | /bin/bash
+          echo $ct4175 | jq -r .usw690 | /bin/bash
+          echo $tnp4 | jq -r .a32980 | /bin/bash
+          echo $ycs3990 | jq -r .tg67801 | /bin/bash
+          echo $wp14823 | jq -r .vaqkj226 | /bin/bash
 
